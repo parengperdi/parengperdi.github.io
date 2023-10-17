@@ -31,7 +31,7 @@
     <header>
       <nav class="nav collapsible">
         <a data-aos="slide-right" class="nav__brand" href="#"
-          ><img class="spy_logo" src="images/spy_noBG.png" alt="" />
+          ><img class="spy_logo" src="./images/spy_noBG.png" alt="" />
           <p class="spy">SPY</p>
         </a>
 
@@ -68,7 +68,7 @@
         
           <picture data-aos="fade-left">
             <a  href="index2.html">
-            <img class="hero__image" src="images/device.png" alt="" />
+            <img class="hero__image" src="./images/device.png" alt="" />
           </a>
           </picture>
       
@@ -103,7 +103,7 @@
       <div class="grid grid--1x2">
         <div class="testimonial__image" data-aos="zoom-in-up">
           <img
-            src="images/flowchart.png"
+            src="./images/flowchart.png"
             alt=""
           />
         
@@ -132,7 +132,7 @@ class="block block--dark block--skewed-right block-showcase"
 </header>
 <div class=" container grid grid--1x2">
 
-    <img class="vmodel" src="images/vmodel.png" alt="" />
+    <img class="vmodel" src="./images/vmodel.png" alt="" />
 
   <ul class="list">
     <li>
@@ -215,7 +215,7 @@ class="block block--dark block--skewed-right block-showcase"
             <img
               
               class="feature__image"
-              src="images/nano.png"
+              src="./images/nano.png"
               alt=""
             />
           </a>
@@ -243,7 +243,7 @@ class="block block--dark block--skewed-right block-showcase"
             <img
               
               class="feature__image"
-              src="images/gsm.png"
+              src="./images/gsm.png"
               alt=""
             />
           </a>
@@ -266,7 +266,7 @@ class="block block--dark block--skewed-right block-showcase"
         </div>
 
         
-          <picture data-aos="slide-left"><a href="https://www.google.com/shopping/product/1?q=sound+sensor&client=ms-android-oppo-rvo2&sa=X&biw=424&bih=804&tbs=vw:g&sxsrf=ALiCzsbD710fHsMLhCbKeiFpU6m42sbazQ:1671638662024&prds=num:1,of:1,eto:4435143744022867621_0,prmr:1,pid:4435143744022867621,cs:1&ved=0ahUKEwjZtZGli4v8AhWeQPUHHUQvANkQgjYIgQ0"><img  class="feature__image" src="images/sensor.png" alt="" /></a></picture>    </article>
+          <picture data-aos="slide-left"><a href="https://www.google.com/shopping/product/1?q=sound+sensor&client=ms-android-oppo-rvo2&sa=X&biw=424&bih=804&tbs=vw:g&sxsrf=ALiCzsbD710fHsMLhCbKeiFpU6m42sbazQ:1671638662024&prds=num:1,of:1,eto:4435143744022867621_0,prmr:1,pid:4435143744022867621,cs:1&ved=0ahUKEwjZtZGli4v8AhWeQPUHHUQvANkQgjYIgQ0"><img  class="feature__image" src="./images/sensor.png" alt="" /></a></picture>    </article>
 
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="slide-right">
@@ -287,7 +287,7 @@ class="block block--dark block--skewed-right block-showcase"
             <img
               
               class="feature__image"
-              src="images/battery.png"
+              src="./images/battery.png"
               alt=""
             />
           </a>
@@ -309,7 +309,7 @@ class="block block--dark block--skewed-right block-showcase"
             <img
              
               class="memberss feature__image"
-              src="images/other.png"
+              src="./images/other.png"
               alt=""
             />
           </a>
@@ -329,7 +329,7 @@ class="block block--dark block--skewed-right block-showcase"
     </header>
     <div class=" container grid grid--1x2">
     
-        <img class="blabla" src="images/device.png" alt="" />
+        <img class="blabla" src="./images/device.png" alt="" />
     
       <ul class="list">
         <li>
@@ -769,7 +769,7 @@ class="block block--dark block--skewed-right block-showcase"
          
         </section>
         <div class="footer__brand">
-          <div class="footer--photo"><img class="footer-photos" src="images/spy_noBG.png" alt="" /></div>
+          <div class="footer--photo"><img class="footer-photos" src="./images/spy_noBG.png" alt="" /></div>
           <p class="footer__copyright">Copyright 2022 Research Group 3</p>
         </div>
       </div>
@@ -785,7 +785,7 @@ class="block block--dark block--skewed-right block-showcase"
       $(document).ready(function() {
   $('.template-article img').each(function() {
       var currentImage = $(this);
-      currentImage.wrap("<a class='images/inside.png' href='" + currentImage.attr("src") + "'</a>");
+      currentImage.wrap("<a class='./images/inside.png' href='" + currentImage.attr("src") + "'</a>");
   });
   $('images/inside.png').magnificPopup({type:'image'});  
 });
